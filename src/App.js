@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import UseEffect from "./UseEffect";
+import UseRef from "./UseRef";
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <div>
     <Home/>
     <UseEffect/>
+    <UseRef></UseRef>
     </div>
   )
 }
