@@ -4,6 +4,8 @@ import UseEffect from "./Hooks/UseEffect";
 import UseRef from "./Hooks/UseRef";
 import Example from "./Hooks/Example";
 import ContextChild from "./Hooks/ContextChild";
+import UseParams from "./Hooks/UseParams";
+import ParamsChild from "./Hooks/ParamsChild";
 
 const data = createContext();
 const data1 = createContext();
@@ -25,6 +27,8 @@ function App() {
       <ContextChild></ContextChild>
       </data1.Provider>
     </data.Provider>
+    <UseParams></UseParams>
+    <ParamsChild></ParamsChild>
     </div>
   )
 }
