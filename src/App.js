@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./Home";
-import UseEffect from "./UseEffect";
-import UseRef from "./UseRef";
-
+import Home from "./Hooks/Home";
+import UseEffect from "./Hooks/UseEffect";
+import UseRef from "./Hooks/UseRef";
+import Example from "./Hooks/Example";
 function App() {
   
   return (
@@ -10,6 +10,7 @@ function App() {
     <Home/>
     <UseEffect/>
     <UseRef></UseRef>
+    <Example></Example>
     </div>
   )
 }
