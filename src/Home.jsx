@@ -1,8 +1,10 @@
-import React,{useState} from "react";
+import React,{useState, } from "react";
 
 
 const Home = () => {
-    const [a, setA] = useState(0)
+    const [a, setA] = useState(0);
+
+    
 
     return (
         <div>
